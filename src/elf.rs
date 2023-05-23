@@ -1,5 +1,5 @@
 // Elf is a struct that represents a person.
-
+#[derive(Clone)]
 pub struct Elf {
     // Id is the id of the elf.
     pub id: i32,
